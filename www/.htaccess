@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule  ^wordpress/wordpress/$   /wordpress/wordpress/?video=testvid
