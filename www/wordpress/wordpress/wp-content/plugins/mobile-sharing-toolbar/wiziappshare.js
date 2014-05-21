@@ -72,6 +72,7 @@ function wiziapp_pageshow( event, ui ) {
         });
         
         $("body").delegate('.wiziappshare-toolbar','click',lightbox);
+        $("body").delegate('[data-role=page]','isVisible', wiziapp_pageshow);
         if( $('#wiziapp-theme-style-css').length || $('.wiziapp-header').length || $("script:contains('WiziappAccessPoint')").length)         // use this if you are using class to check
 	{
         	$("body").delegate('[data-role=page]','pageshow', wiziapp_pageshow);

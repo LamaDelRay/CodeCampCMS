@@ -3,10 +3,10 @@ Contributors: wiziapp
 Tags: facebook, twitter, google+, linkdin, share, sharing, social, social sharing, mobile, mobile sharing
 Requires at least: 3.4
 Tested up to: 3.8.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 
-Add a mobile friendly social share buttons to your mobile site so users can share your content on Facebook, Twitter, etc. 
+Add a mobile friendly social share buttons to your mobile site so users can share your content on Facebook, Twitter, etc.
 
 == Description ==
 
@@ -20,7 +20,7 @@ You can choose to display the social share buttons in two layouts:
 - As a floating share icon on top of your mobile posts and pages, clicking this icon opens the social share buttons.
 - Display the social share buttons directly on the end of each of your mobile posts & pages (just uncheck the "floating" option on the plugin settings).
 
-This plugin was created by [Wiziapp](http://wordpress.org/plugins/wiziapp-create-your-own-native-iphone-app/) which enables you to set an exclusive theme for your mobile site & create native mobile Apps, click [here](http://wordpress.org/plugins/wiziapp-create-your-own-native-iphone-app/) for more information. 
+This plugin was created by [Wiziapp](http://wordpress.org/plugins/wiziapp-create-your-own-native-iphone-app/) which enables you to set an exclusive theme for your mobile site & create native mobile Apps, click [here](http://wordpress.org/plugins/wiziapp-create-your-own-native-iphone-app/) for more information.
 
 == Installation ==
 
@@ -69,7 +69,7 @@ The "Mobile Social Sharing toolbar" can be used for sharing content on Facebook,
 = Why Is Social Sharing Important For Your Website? =
 
 Share, Share, Share... this is what all those social "SHARE" media experts have been telling the world for the last few months. A lot of benefits can be achieved if you share some quality information related to product, service or anything else for that matter. There is no secret to the fact that modern world is all about advertising and promotion. A number of services are helping businesses to grow. If you have launched any product or service, you definitely want exposure for the same. The best tool for achieving the desired results is internet that allows you to share the details with people across the globe. The social media platforms are the perfect alternatives to share the information with your followers and friends. Not only can you share with friends and followers, but also with targeted users from across the globe. Internet has made social share very easy and simple. You only need to have a website for your business and services and share it with public through a number of social media sites. These sites are playing huge role in marketing of products, businesses, services and many other industries.
- 
+
 = The Share Options =
 
 When it comes to share options, internet has given us so many mediums to advertise our services and products. This simply leads to more business enquiries resulting in increased profit in turn. Other then products and services, you can share information about your business, related upcoming event as well as other newsworthy event related to the niche. Here is a list of options to consider when it comes to share posts on social media.
@@ -95,20 +95,20 @@ When it comes to share options, internet has given us so many mediums to adverti
 - Share on Flipora
 - Share on Chime.in
 - Share on Propeller
- 
+
 = What are the Advantages if I Share more on Social Media? =
 You do get quite a few advantages if you share information about your products, services or business on social media. It is a fact that socially shared links get more popularity and exposure than other kinds of links. If you share on social media, you are more likely to attract not only people but search engines as well. Latest reports have confirmed that social media sites impact Google ranking a lot. More the times a link is shared, higher the search engine ranking will be. This simply means more traffic and revenue in turn. If a user has a huge social circle and he shares plenty of details with them, he automatically gets promotion for related products and services.
- 
+
 = Should I Share Information on Social Media? =
 
 The answer is yes. Here are few reasons why you must share information with people for your website.
 
 = Share to Get Brand Identity =
-Just having a business is not enough to achieve success. Developing a Brand Identity is important. The best way to achieve the same is to share on social media. There are professional service providers who provide the service to share details about your products and services and create brand identity.   
+Just having a business is not enough to achieve success. Developing a Brand Identity is important. The best way to achieve the same is to share on social media. There are professional service providers who provide the service to share details about your products and services and create brand identity.
 
 = Share to Get a lot of Viewers =
-The rule is simple – share more to get more viewers. Now, the content you share must be informative, interesting and call for action. Share random information and chances of you losing out on number of viewers increases.   
-  
+The rule is simple – share more to get more viewers. Now, the content you share must be informative, interesting and call for action. Share random information and chances of you losing out on number of viewers increases.
+
 = Share more to Generate and Convert Leads =
 If you have quality content on your website and share the link with viewers, you get better chances to generate and convert leads into revenue.
 
@@ -122,7 +122,7 @@ There is a cut throat Competition in every business field. Everyone wants to get
 Share your website with a number of people on internet in order to connect with your targeted audiences. You get to know about real people who want to get your services. Having a good product or service is necessary in order to gain success; however, connecting with consumers is necessary. Social media can be a platform to increase the trust level for your company and services in the minds of consumers.
 
 = Share to Get Long Time Business Profits =
-While many other temporary marketing solutions help you get success for few days or months, social share options can give you long term profits. It helps in generating good quality leads that help your product become a brand.  
+While many other temporary marketing solutions help you get success for few days or months, social share options can give you long term profits. It helps in generating good quality leads that help your product become a brand.
 
 = Share to be a Trustworthy Businessman =
 Winning trust and loyalty of viewers is a big and promising thing. This is one of the most important factors to be successful in business world. When you share a post about your products and services with your audiences, you win their heart by receiving their trust. They think that your company is worth trusting since you share information with them. They are more likely to come back to your service in future as well. Trust is the only thing that will keep you running for long on the path of success.
@@ -131,18 +131,18 @@ Winning trust and loyalty of viewers is a big and promising thing. This is one o
 When a product is just launched, you need to spend a lot of money in promotion and advertisement. In the world of internet today, it is very easy to share these products with viewers. This method does not cost you a penny. When you share your website with other, you get immense benefits since a number of people are going to view this.
 
 = Social Share Buttons =
-Addition of social share buttons is vital to your blog or website. In case there is a visitor to your site who likes one of your offerings, a share button would allow him to share the details with his friends or followers. All he needs to do is click on the share button on the dedicated social media site. His friends in turn would be able to see the details and share it further. 
+Addition of social share buttons is vital to your blog or website. In case there is a visitor to your site who likes one of your offerings, a share button would allow him to share the details with his friends or followers. All he needs to do is click on the share button on the dedicated social media site. His friends in turn would be able to see the details and share it further.
 
 = Share to Go Viral =
 Social media share options can make your posts go viral and attract millions from across the globe. So stop wondering. Share now.
- 
+
 = Ready To Share? Read these before Adding Share Buttons =
 
 - Add only those share buttons that you need
 - Decide the place where you want to add share buttons
 - Not good at coding? Hire an expert for addition of share buttons
 - Adding social share buttons is possible on platform based sites (WordPress)
- 
+
 = Some Interesting Social Media Share Facts =
 
 A recent study identified the motivation percentage that persuaded people to post. Here are the details
@@ -162,10 +162,10 @@ Not only texts and contents help in increasing the rank and traffic of website b
 If your business has something special that other companies do not have, you must share that fact with the world. You should take pictures of that exceptional thing you offer your customers like special gifts and vouchers and share them on social networking sites. If you are supporting any cause or creating awareness in society you should let the world know about the same by sharing online. You can share pictures in order to get awareness.
 
 = Infographic Shares =
-You do not need to write a full article on any particular topic, you can illustrate your concept in form of graphics and share it on social sites.  
+You do not need to write a full article on any particular topic, you can illustrate your concept in form of graphics and share it on social sites.
 
 = Share Your Articles on Multiple Platforms With Ease =
-You can share your well written articles or posts on one social site and the platform would automatically let you share with friends and audiences of the other social sites. You can connect your LinkedIn and twitter accounts or Facebook and Twitter to share the details. So we know the importance of social share. A lot of share of our posts can help you get numerous benefits. We can say that social share has a huge effect on traffic and ranking 
+You can share your well written articles or posts on one social site and the platform would automatically let you share with friends and audiences of the other social sites. You can connect your LinkedIn and twitter accounts or Facebook and Twitter to share the details. So we know the importance of social share. A lot of share of our posts can help you get numerous benefits. We can say that social share has a huge effect on traffic and ranking
 of the site. Just few things you must keep in mind while sharing posts on social media sites.
 
 = Share Relevant Posts =
@@ -176,9 +176,9 @@ Google can ban your site if you share anything spam and illegal, so avoid this s
 
 = Share Tactfully =
 Share your post by keeping important things in mind.
- 
+
 = Mobile Users =
-With social media platforms accessible on mobile devices in the modern times and the number of smartphone users increasing at a blistering pace, a simple share on social media has a higher potential to reach more people. Start sharing. 
+With social media platforms accessible on mobile devices in the modern times and the number of smartphone users increasing at a blistering pace, a simple share on social media has a higher potential to reach more people. Start sharing.
 
 = Twitter =
 Twitter is one of the most powerful and popular social networking sites among internet users across the world. This microblogging service or Twitter allows users to send and read messages limited to 140 characters. These messages are known as tweets. Twitter is not only helping people to connect with each other but also provides distinctive opportunities for the improvement of social media marketing campaigns and conventional marketing. Twitter has been joined by millions of users all around the globe and the number if increasing at a blistering pace.
@@ -192,7 +192,7 @@ Twitter is big platform where you can promote your special offers and discounts 
 
 = Twitter and Traffic Generation =
 Twitter is a great method to generate web traffic and get higher ranking on search engines. When you tweet about anything, all your twitter followers are able to view the same. If they like it, they would tweet it further to their followers thereby resulting in marketing and traffic generation.
- 
+
 = Reasons to be Active on Twitter =
 
 - Twitter helps both business owners and personal users to be in the lime light when it comes to current roles and events.
@@ -220,7 +220,7 @@ You can use Twitter hashtags to make your post more helpful and effective.  Thes
 
 = Make Effective Tweets On Twitter =
 Twitter marketing not just endorses your business but also helps in improving relationships and providing significance. If you want to be effective on Twitter, you must provide a lot of information to your followers on twitter. Try to maintain a balance. Remember, if you constantly send out information and advertisements about your products, it will annoy your Twitter followers and they would discontinue following you on twitter. So it is better to take some time and post valuable information or links. Too less activeness can also lead to loss of followers.
- 
+
 = Some Correct Twitter Tweets Types that you can Share on Twitter =
 
 - You can share the newest apps and tools on Twitter and let the world and Twitter users know about it.
@@ -228,13 +228,13 @@ Twitter marketing not just endorses your business but also helps in improving re
 - You can also link your press releases, contests, blog posts, promotions and many more on Twitter post.
 - You must retweet relevant content on twitter.
 - You can also share links to third party relevant articles, videos, pictures and many more on Twitter profile.
- 
+
 = Interesting Facts about Twitter =
 
 Some of the interesting facts about Twitter are
 
 - Twitter is absolutely free to use
-- Twitter is accessible on Mobile  
+- Twitter is accessible on Mobile
 - A number of well known people or celebrities are connected with Twitter.
 - Twitter is the most effective social media site.
 - Twitter has over 800 million active users and you can connect with them if you join twitter.
@@ -244,7 +244,7 @@ Some of the interesting facts about Twitter are
 - Twitter helps in marketing products
 - Twitter helps users to boost their Brand Value
 - Twitter means you have a lot of followers
- 
+
 Users can share anything related to their business on twitter and get help in a number of different ways.
 
 - Twitter raises trustworthiness among customers
@@ -254,9 +254,9 @@ Users can share anything related to their business on twitter and get help in a 
 - Twitter allows users to post pictures
 
 Since Twitter has become the most loved social networking sites, people are making most of this platform. Twitter is a boon for business users and that is why a number of business owners around the world are associated with it. They have joined Twitter in order to get new customers and make a true connection with current ones. Twitter is providing free option for promoting and advertising their products. Not only business owners, but a number of popular artists are also available on Twitter and use the platform to interact with fans.
- 
+
 = Twitter On Smartphone =
-Seeing the importance of Twitter and popularity of this social media platform Twitter is now available on mobile as well. A lot of new mobile companies are making the most of the situation by offering Twitter app on their mobile. It provide an easy way to twitter users to contact with their friends and family. One major benefit that Twitter gives to its users is that it lets them the ability to talk to their followers on Twitter account and improve the chances to get their Twitter messages read by millions across the globe.  You can regularly talk or chat with your Twitter followers. You can also get to know about public response via Twitter messages. Your Twitter followers actually help you to improve your performances and services. Twitter has emerged as the preferred social network of the modern times and simplicity, ease of use and exceptional power to users are the major reasons behind the same. If you have a business – small or large – it is time to use the power of Twitter. 
+Seeing the importance of Twitter and popularity of this social media platform Twitter is now available on mobile as well. A lot of new mobile companies are making the most of the situation by offering Twitter app on their mobile. It provide an easy way to twitter users to contact with their friends and family. One major benefit that Twitter gives to its users is that it lets them the ability to talk to their followers on Twitter account and improve the chances to get their Twitter messages read by millions across the globe.  You can regularly talk or chat with your Twitter followers. You can also get to know about public response via Twitter messages. Your Twitter followers actually help you to improve your performances and services. Twitter has emerged as the preferred social network of the modern times and simplicity, ease of use and exceptional power to users are the major reasons behind the same. If you have a business – small or large – it is time to use the power of Twitter.
 
 = Importance of Facebook Marketing =
 Facebook is one of the most popular social networking sites that has millions of members across the world. Initially Facebook was being used by people for connecting with their friends and family members who were already on Facebook. The scenario has now changed and it is being used by businesses as well. A number of people of all age groups are connecting with Facebook in order to make most of this powerful networking site. Some of the benefits that users get from Facebook include.
@@ -281,7 +281,7 @@ Facebook also helps you to analyse your data since it offers a highly detailed r
 
 = Facebook Increases your Site's Visitors =
 When you make a website and share it on Facebook, you get help for increasing the visitors to your website. All the friends in your list on Facebook can see your posts. It will give immense benefits.
- 
+
 = Facebook Features =
 Facebook has a number of effective features that are helpful in businesses. Some of the powerful features on Facebook are as below.
 
@@ -299,16 +299,16 @@ Facebook Tag feature allow users to tag their friends in their posts and images 
 
 = Facebook Likes =
 Facebook Likes feature in Facebook act as support or appreciation by friends. When you share a post, your friends can like the same. It means that your post have been supported by your friends on Facebook.
- 
+
 = How to Join Facebook =
 Well it is very easy to join Facebook. You are not required to pay any price for that. You just need to go to the Facebook sign up page and fill a simple form there. Now search for your friend who have already joined Facebook to connect.
- 
+
 = Facebook on Mobile =
 Now a days, a number of mobile companies have started keeping Facebook App in their set, so that users get more attracted to their phones. As we all know that people love being online on Facebook and sharing their updates with their friends, the tendency has been utilized by mobile phone companies. Now most of the mobile brands are giving the Facebook app in their phone to attract more customers.
- 
+
 = Privacy Issue on Facebook =
 A number of people complain that Facebook does not allow privacy to its users; however, this is not true. There is privacy setting on Facebook account that can help users in the same. These Facebook privacy settings are mostly demanded by people who are available on Facebook just to be connected with their family members and friends.
- 
+
  =Tips for increasing the Facebook Presence of your Brand =
 Facebook can take your business to a higher level with the help of some methods. These methods are related with your activity on Facebook. Below are some tips to improve the presence for your brand on Facebook.
 
@@ -338,7 +338,7 @@ Facebook contests give you bigger opportunity to promote your products among you
 
 = Facebook Contesting is an Ideal Way for Internet Marketers =
 Organizing a Facebook contest is beneficial especially for internet Marketer. The contest on Facebook can help you to market your products in better way.
- 
+
 = Why to Use Facebook for Marketing =
 
 If you are still unsure and do not know the reasons for using Facebook for marketing, read on.
@@ -357,14 +357,14 @@ If you are still unsure and do not know the reasons for using Facebook for marke
 - Facebook is available on Mobile
 - Facebook helps in increasing the Brand Value
 - Facebook allows you to have a lot of friends
- 
+
 Facebook has been joined by millions of users all around the globe since it came into being. Users being able to share many things on Facebook is seen as the major reason behind the same. Some of things that you can share on Facebook include
 
 - Facebook allows posting links
 - Facebook allows posting pictures
 - Facebook allows sharing of videos with Facebook friends as well as Facebook followers
 - Facebook allow promotions
- 
+
 = Use "Facebook Timeline" to Endorse your Small Business on Facebook =
 Facebook Timeline offers a great opportunity to businesses to promote their services. Facebook Timeline makes it easier for business owners to tell their stories and get in touch with new customers.  If you wonder how Facebook Timeline can help, below are some techniques that can help you to endorse your products.
 
@@ -414,6 +414,10 @@ Facebook also has its own URL shortener based on the domain name FB.me. In this 
 Facebook also has a service called "Facebook Live". It is a live streaming video channel. This Facebook feature allows Facebook users get updated on all the happenings on Facebook. So we can say that Facebook is not only helpful for personal users but for professional people, students, friends and many other users too. If you are still not on Facebook, chances are that you are missing on a lot. You can get a lot of related benefits for your business as well or just use the platform for networking. Join Facebook Now.
 
 == Changelog ==
+
+= 1.0.1 =
+
+* Bug fixes
 
 = 1.0.0 =
 

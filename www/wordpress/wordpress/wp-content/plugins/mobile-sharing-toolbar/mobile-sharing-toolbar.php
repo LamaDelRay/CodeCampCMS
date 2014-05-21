@@ -1,10 +1,10 @@
 <?php
 
 	/**
-	* Plugin Name: Mobile Social sharing toolbar - compatible with Wiziapp
+	* Plugin Name: MobileSharing
 	* Description: Add share menu to your blog web app
 	* Author: WiziApp Solutions Ltd.
-	* Version: 1.0.0
+	* Version: 1.0.1
 	* Author URI: http://www.wiziapp.com/
 	*/
 
@@ -44,7 +44,7 @@
 
             if (isset($_POST['wiziappshare_hidden']))
             {
-                $floatIconDisplay = $_POST['wiziappshare_float_display'];
+                $floatIconDisplay = $_POST['wiziappshare_float_display'] == "true" ? true : false;
                 update_option('wiziappshare_float_display', $floatIconDisplay);
                 $postScreen = $_POST['wiziappshare_post'];
                 update_option('wiziappshare_post', $postScreen);
@@ -61,7 +61,7 @@
             }
             else
             {
-               $floatIconDisplay = get_option('wiziappshare_float_display',true);
+               $floatIconDisplay = get_option('wiziappshare_float_display',false);
                $postScreen = get_option('wiziappshare_post',true);
                $pageScreen = get_option('wiziappshare_page');
                $googleInd = get_option('wiziappshare_google',true);
@@ -77,9 +77,10 @@
                 <input type="hidden" name="wiziappshare_hidden" value="Y">
                 <div class="wiziappshare_general">
                     <div class="wiziappshare_title">General Settings</div>
-                    <div class="wiziappshare_inner_title">Display sharing menu</div>
-                    <div class="wiziappshare_line"><input type="checkbox" name="wiziappshare_float_display" onchange='document.forms[0].submit();' value="true" <?php if ($floatIconDisplay == true) echo 'checked';?> >Floating icon menu</div>
-                    <div class="wiziappshare_inner_title">Display mobile sharing options on:</div>
+                    <div class="wiziappshare_inner_title">Mobile Sharing Style:</div>
+                    <div class="wiziappshare_line"><input type="radio" name="wiziappshare_float_display" onchange='document.forms[0].submit();' value="false" <?php if ($floatIconDisplay == false) echo 'checked';?> >Sharing buttons are displayed on the posts/pages bottom</div>
+                    <div class="wiziappshare_line"><input type="radio" name="wiziappshare_float_display" onchange='document.forms[0].submit();' value="true" <?php if ($floatIconDisplay == true) echo 'checked';?> >Floating icon, which opens the sharing buttons, is displayed on top of the posts/pages</div>
+                    <div class="wiziappshare_inner_title">Mobile Display Screens:</div>
                     <div class="wiziappshare_line"><input type="checkbox" name="wiziappshare_post" onchange='document.forms[0].submit();' value="true" <?php if ($postScreen == true) echo 'checked';?> >Post's screen</div>
                     <div class="wiziappshare_line"><input type="checkbox" name="wiziappshare_page" onchange='document.forms[0].submit();' value="true" <?php if ($pageScreen == true) echo 'checked';?>>Page's screen</div>
                 </div>
@@ -108,7 +109,7 @@
 	function wiziappshare_footer() {
 
             if (get_option('wiziappshare_float_display',false)) {
-                if(strstr($_SERVER['HTTP_USER_AGENT'],'72dcc186a8d3d7b3d8554a14256389a4') || strstr($_SERVER['HTTP_USER_AGENT'],'iPhone') || strstr($_SERVER['HTTP_USER_AGENT'],'Android'))
+                if(strstr($_SERVER['HTTP_USER_AGENT'],'72dcc186a8d3d7b3d8554a14256389a4') || strstr($_SERVER['HTTP_USER_AGENT'],'iPad') || strstr($_SERVER['HTTP_USER_AGENT'],'iPhone') || strstr($_SERVER['HTTP_USER_AGENT'],'Android'))
                 {
                     $postScreen = get_option('wiziappshare_post',true);
                     $pageScreen = get_option('wiziappshare_page');
@@ -173,7 +174,7 @@
                     }
                     else
                     {
-                        if(strstr($_SERVER['HTTP_USER_AGENT'],'72dcc186a8d3d7b3d8554a14256389a4') || strstr($_SERVER['HTTP_USER_AGENT'],'iPhone') || strstr($_SERVER['HTTP_USER_AGENT'],'Android'))
+                        if(strstr($_SERVER['HTTP_USER_AGENT'],'72dcc186a8d3d7b3d8554a14256389a4') || strstr($_SERVER['HTTP_USER_AGENT'],'iPad') || strstr($_SERVER['HTTP_USER_AGENT'],'iPhone') || strstr($_SERVER['HTTP_USER_AGENT'],'Android'))
                         {
                             $postScreen = get_option('wiziappshare_post',true);
                             $pageScreen = get_option('wiziappshare_page');

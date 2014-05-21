@@ -5,7 +5,7 @@
  * Description: Display the counting Twitter followers, Facebook fans, YouTube subscribers posts and comments.
  * Author: claudiosanches, felipesantana
  * Author URI: http://claudiosmweb.com/
- * Version: 2.9.0
+ * Version: 2.9.1
  * License: GPLv2 or later
  * Text Domain: social-count-plus
  * Domain Path: /languages/
@@ -355,7 +355,6 @@ class Social_Count_Plus {
 			),
 			'target_blank' => array(
 				'title' => __( 'Open URLs in new tab/window', 'social-count-plus' ),
-				'default' => 1,
 				'type' => 'checkbox',
 				'section' => 'settings',
 				'menu' => 'socialcountplus_settings',
@@ -363,7 +362,6 @@ class Social_Count_Plus {
 			),
 			'rel_nofollow' => array(
 				'title' => __( 'Add nofollow in URLs', 'social-count-plus' ),
-				'default' => 1,
 				'type' => 'checkbox',
 				'section' => 'settings',
 				'menu' => 'socialcountplus_settings',
@@ -449,7 +447,7 @@ class Social_Count_Plus {
 				'soundcloud_client_id'   => '',
 				'posts_active'           => ( 'true' == get_option( 'scp_show_posts' ) ) ? 1 : '',
 				'comments_active'        => ( 'true' == get_option( 'scp_show_comment' ) ) ? 1 : '',
-				'target_blank'           => 1,
+				// 'target_blank'           => '',
 				// 'rel_nofollow'           => ''
 			);
 
@@ -535,15 +533,17 @@ class Social_Count_Plus {
 
 		// Create tabs current class.
 		$current_tab = '';
-		if ( isset( $_GET['tab'] ) )
+		if ( isset( $_GET['tab'] ) ) {
 			$current_tab = $_GET['tab'];
-		else
+		} else {
 			$current_tab = 'settings';
+		}
 
 		// Reset transients when save settings page.
 		if ( isset( $_GET['settings-updated'] ) ) {
-			if ( true == $_GET['settings-updated'] )
+			if ( true == $_GET['settings-updated'] ) {
 				$this->counter->reset_transients();
+			}
 		}
 
 		?>
@@ -797,16 +797,18 @@ class Social_Count_Plus {
 
 		$options = get_option( $menu );
 
-		if ( isset( $options[ $id ] ) )
+		if ( isset( $options[ $id ] ) ) {
 			$current = $options[ $id ];
-		else
+		} else {
 			$current = isset( $args['default'] ) ? $args['default'] : '';
+		}
 
 		$html = sprintf( '<input type="text" id="%1$s" name="%2$s[%1$s]" value="%3$s" class="%4$s" />', $id, $menu, $current, $class );
 
 		// Displays option description.
-		if ( isset( $args['description'] ) )
+		if ( isset( $args['description'] ) ) {
 			$html .= sprintf( '<p class="description">%s</p>', $args['description'] );
+		}
 
 		echo $html;
 	}
@@ -824,18 +826,20 @@ class Social_Count_Plus {
 
 		$options = get_option( $menu );
 
-		if ( isset( $options[ $id ] ) )
+		if ( isset( $options[ $id ] ) ) {
 			$current = $options[ $id ];
-		else
+		} else {
 			$current = isset( $args['default'] ) ? $args['default'] : '';
+		}
 
 		$html = sprintf( '<input type="checkbox" id="%1$s" name="%2$s[%1$s]" value="1"%3$s />', $id, $menu, checked( 1, $current, false ) );
 
 		$html .= sprintf( '<label for="%s"> %s</label><br />', $id, __( 'Activate/Deactivate', 'social-count-plus' ) );
 
 		// Displays option description.
-		if ( isset( $args['description'] ) )
+		if ( isset( $args['description'] ) ) {
 			$html .= sprintf( '<p class="description">%s</p>', $args['description'] );
+		}
 
 		echo $html;
 	}
@@ -853,14 +857,15 @@ class Social_Count_Plus {
 
 		$options = get_option( $menu );
 
-		if ( isset( $options[ $id ] ) )
+		if ( isset( $options[ $id ] ) ) {
 			$current = $options[ $id ];
-		else
+		} else {
 			$current = isset( $args['default'] ) ? $args['default'] : '#ffffff';
+		}
 
 		$html = '';
 		$key = 0;
-		foreach( $args['options'] as $label ) {
+		foreach ( $args['options'] as $label ) {
 
 			$html .= sprintf( '<input type="radio" id="%1$s_%2$s_%3$s" name="%1$s[%2$s]" value="%3$s"%4$s style="display: block; float: left; margin: 10px 10px 0 0;" />', $menu, $id, $key, checked( $current, $key, false ) );
 			$html .= sprintf( '<label for="%1$s_%2$s_%3$s"> <img src="%4$s" alt="%1$s_%2$s_%3$s" /></label><br style="clear: both;margin-bottom: 20px;" />', $menu, $id, $key, plugins_url( 'demos/' . $label , __FILE__ ) );
@@ -868,8 +873,9 @@ class Social_Count_Plus {
 		}
 
 		// Displays option description.
-		if ( isset( $args['description'] ) )
+		if ( isset( $args['description'] ) ) {
 			$html .= sprintf( '<p class="description">%s</p>', $args['description'] );
+		}
 
 		echo $html;
 	}
@@ -887,16 +893,18 @@ class Social_Count_Plus {
 
 		$options = get_option( $menu );
 
-		if ( isset( $options[ $id ] ) )
+		if ( isset( $options[ $id ] ) ) {
 			$current = $options[ $id ];
-		else
+		} else {
 			$current = isset( $args['default'] ) ? $args['default'] : '#333333';
+		}
 
 		$html = sprintf( '<input type="text" id="%1$s" name="%2$s[%1$s]" value="%3$s" class="social-count-plus-color-field" />', $id, $menu, $current );
 
 		// Displays option description.
-		if ( isset( $args['description'] ) )
+		if ( isset( $args['description'] ) ) {
 			$html .= sprintf( '<p class="description">%s</p>', $args['description'] );
+		}
 
 		echo $html;
 	}
@@ -960,9 +968,9 @@ class Social_Count_Plus {
 	 */
 	public function view() {
 		$settings = get_option( 'socialcountplus_settings' );
-		$design = get_option( 'socialcountplus_design' );
-		$count = $this->counter->update_transients();
-		$color = isset( $design['text_color'] ) ? $design['text_color'] : '#333333';
+		$design   = get_option( 'socialcountplus_design' );
+		$count    = $this->counter->update_transients();
+		$color    = isset( $design['text_color'] ) ? $design['text_color'] : '#333333';
 
 		// Sets widget design.
 		$style = '';
